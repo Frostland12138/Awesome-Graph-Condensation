@@ -3,7 +3,7 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <p align="center">
-     <img src="./logo.png" width="200"/>
+     <img src="./logo.png" width="500"/>
 <p>
 
 **:triangular_flag_on_post: We have released a new [survey paper](https://arxiv.org/abs/2402.02000), presenting a comprehensive overview of existing graph condensation methods. We are looking forward to any comments or discussions on this topic :)** 
