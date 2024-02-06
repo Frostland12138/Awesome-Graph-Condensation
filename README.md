@@ -16,7 +16,7 @@ This repository contains a list of papers who shares a common motivation of GC; 
 
 We will try to make this list updated. If you found any error or any missed paper, please don't hesitate to open an issue or pull request.
 
-### Paper List
+## Paper List
 |    Survey Paper    |  Conference  |
 |  :---------  | :------:  |
 | :triangular_flag_on_post: [**A Survey on Graph Condensation**](https://arxiv.org/abs/2402.02000) | arXiv 2024 |
