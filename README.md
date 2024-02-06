@@ -6,8 +6,12 @@
      <img src="./logo.png" width="200"/>
 <p>
 
-- Given that graph data consists of a massive number of nodes and their relationships,  **Graph Condensation (GC)** solves the problem of: How to condense large-scale graphs into **smaller** yet **informative** ones.
+**:triangular_flag_on_post: We have released a new [survey paper](https://arxiv.org/abs/2402.02000), presenting a comprehensive overview of existing graph condensation methods. We are looking forward to any comments or discussions on this topic :)** 
 
+## What is GC
+Given that graph data consists of a massive number of nodes and their relationships,  **Graph Condensation (GC)** solves the problem of: How to condense large-scale graphs into **smaller** yet **informative** ones.
+
+## How can this repository be of service
 This repository contains a list of papers who shares a common motivation of GC; We categorize them based on their aspect of making condensed graphs **informative**, i.e., what information of the original graph was designed to preserve, the graph properties (graph guided) or the trained models' capabilities (model guided).
 
 We will try to make this list updated. If you found any error or any missed paper, please don't hesitate to open an issue or pull request.
@@ -18,7 +22,7 @@ We will try to make this list updated. If you found any error or any missed pape
 | :triangular_flag_on_post: [**A Survey on Graph Condensation**](https://arxiv.org/abs/2402.02000) | arXiv 2024 |
 | [Graph Condensation: A Survey](https://arxiv.org/abs/2401.11720) | arXiv 2024 |
 | [A Comprehensive Survey on Graph Reduction: Sparsification, Coarsening, and Condensation](https://cse.msu.edu/~jinwei2/files/Survey_GraphReduction.pdf) | arXiv 2024 |
-| []() | arXiv 2024 |
+
 
 |Category |   Paper    |  Method  |  Conference  |  Code |
 | :------:|  :---------  | :------:  | :------: | :------: |
@@ -34,17 +38,13 @@ We will try to make this list updated. If you found any error or any missed pape
 |Modle Guided | [Graph Condensation via Receptive Field Distribution Matching](https://arxiv.org/abs/2206.13697) | GCDM | aiXiv 2022 | - |
 |Modle Guided | [Kernel Ridge Regression-Based Graph Dataset Distillation](https://dl.acm.org/doi/abs/10.1145/3580305.3599398) | KiDD | KDD 2023 | [Pytorch](https://github.com/pricexu/KIDD) |
 |Modle Guided | [FedGKD: Unleashing the Power of Collaboration in Federated Graph Neural Networks](https://arxiv.org/abs/2309.09517) | FedGKD | aiXiv 2023 | - |
-|Modle Guided | [Fast graph condensation with structure-based neural tangent kernel](https://arxiv.org/abs/2310.11046) | GC-SNTK | aiXiv 2023 | [Pytorch](https://github.com/amazon-science/convolution-matching) |
+|Modle Guided | [Fast graph condensation with structure-based neural tangent kernel](https://arxiv.org/abs/2310.11046) | GC-SNTK | aiXiv 2023 | - |
 |Modle Guided | [Structure-free Graph Condensation: From Large-scale Graphs to Condensed Graph-free Data](https://arxiv.org/abs/2306.02664) | SFGC | NIPS 2023 | [Pytorch](https://github.com/Amanda-Zheng/SFGC) |
 |Modle Guided | [Condensing Graphs via One-Step Gradient Matching](https://dl.acm.org/doi/abs/10.1145/3534678.3539429) | DosCond | KDD 2022 | [Pytorch](https://github.com/ChandlerBang/GCond) |
 |Modle Guided | [Graph condensation for graph neural networks](https://arxiv.org/abs/2110.07580) | GCond | ICLR 2021 | [Pytorch](https://github.com/ChandlerBang/GCond) |
 |Modle Guided | [Attend who is weak: Enhancing graph condensation via cross-free adversarial training](https://arxiv.org/abs/2311.15772) | GroC | aiXiv 2023 | - |
 |Modle Guided | [Faster Hyperparameter Search for GNNs via Calibrated Dataset Condensation](https://openreview.net/forum?id=ohQPU2G3r3C) | HCDC | OpenReview 2023 | - |
 |Modle Guided | [Multiple sparse graphs condensation](https://www.sciencedirect.com/science/article/abs/pii/S0950705123006548) | MSGC | Knowledge-Based Systems 2023 | - |
-|Modle Guided | [Graph coarsening via convolution matching for scalable graph neural network training](https://arxiv.org/abs/2312.15520) | ConvMatch | aiXiv 2023 | [Pytorch](https://github.com/amazon-science/convolution-matching) |
-|Modle Guided | [Graph coarsening via convolution matching for scalable graph neural network training](https://arxiv.org/abs/2312.15520) | ConvMatch | aiXiv 2023 | [Pytorch](https://github.com/amazon-science/convolution-matching) |
-|Modle Guided | [Graph coarsening via convolution matching for scalable graph neural network training](https://arxiv.org/abs/2312.15520) | ConvMatch | aiXiv 2023 | [Pytorch](https://github.com/amazon-science/convolution-matching) |
-|Modle Guided | [Graph coarsening via convolution matching for scalable graph neural network training](https://arxiv.org/abs/2312.15520) | ConvMatch | aiXiv 2023 | [Pytorch](https://github.com/amazon-science/convolution-matching) |
-|Modle Guided | [Graph coarsening via convolution matching for scalable graph neural network training](https://arxiv.org/abs/2312.15520) | ConvMatch | aiXiv 2023 | [Pytorch](https://github.com/amazon-science/convolution-matching) |
-|Modle Guided | [Graph coarsening via convolution matching for scalable graph neural network training](https://arxiv.org/abs/2312.15520) | ConvMatch | aiXiv 2023 | [Pytorch](https://github.com/amazon-science/convolution-matching) |
-|Modle Guided | [Graph coarsening via convolution matching for scalable graph neural network training](https://arxiv.org/abs/2312.15520) | ConvMatch | aiXiv 2023 | [Pytorch](https://github.com/amazon-science/convolution-matching) |
+|Hybrid | [Graph condensation for inductive node representation learning](https://arxiv.org/pdf/2307.15967) | Mcond | aiXiv 2023 | - |
+|Hybrid | [Does graph distillation see like vision dataset counterpart?](https://arxiv.org/abs/2310.09192) | SGDD | NIPS 2023 | [Pytorch](https://github.com/RingBDStack/SGDD) |
+|Hybrid | [Graph condensation via eigenbasis matching](https://arxiv.org/abs/2310.09202) | GCEM | aiXiv 2023 | - |
